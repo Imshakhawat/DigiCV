@@ -1,0 +1,310 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Codes\\VS 2022\\DigiCV\\aspnetb8-team2\\src\\ResumeBuilderTeam2\\CVBuilder.Persistance\\CVBuilder.Persistence.csproj": {}
+  },
+  "projects": {
+    "D:\\Codes\\VS 2022\\DigiCV\\aspnetb8-team2\\src\\ResumeBuilderTeam2\\CVBuilder.Application\\CVBuilder.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Codes\\VS 2022\\DigiCV\\aspnetb8-team2\\src\\ResumeBuilderTeam2\\CVBuilder.Application\\CVBuilder.Application.csproj",
+        "projectName": "CVBuilder.Application",
+        "projectPath": "D:\\Codes\\VS 2022\\DigiCV\\aspnetb8-team2\\src\\ResumeBuilderTeam2\\CVBuilder.Application\\CVBuilder.Application.csproj",
+        "packagesPath": "C:\\Users\\BS1027\\.nuget\\packages\\",
+        "outputPath": "D:\\Codes\\VS 2022\\DigiCV\\aspnetb8-team2\\src\\ResumeBuilderTeam2\\CVBuilder.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\BS1027\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Codes\\VS 2022\\DigiCV\\aspnetb8-team2\\src\\ResumeBuilderTeam2\\CVBuilder.Domain\\CVBuilder.Domain.csproj": {
+                "projectPath": "D:\\Codes\\VS 2022\\DigiCV\\aspnetb8-team2\\src\\ResumeBuilderTeam2\\CVBuilder.Domain\\CVBuilder.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Codes\\VS 2022\\DigiCV\\aspnetb8-team2\\src\\ResumeBuilderTeam2\\CVBuilder.Domain\\CVBuilder.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Codes\\VS 2022\\DigiCV\\aspnetb8-team2\\src\\ResumeBuilderTeam2\\CVBuilder.Domain\\CVBuilder.Domain.csproj",
+        "projectName": "CVBuilder.Domain",
+        "projectPath": "D:\\Codes\\VS 2022\\DigiCV\\aspnetb8-team2\\src\\ResumeBuilderTeam2\\CVBuilder.Domain\\CVBuilder.Domain.csproj",
+        "packagesPath": "C:\\Users\\BS1027\\.nuget\\packages\\",
+        "outputPath": "D:\\Codes\\VS 2022\\DigiCV\\aspnetb8-team2\\src\\ResumeBuilderTeam2\\CVBuilder.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\BS1027\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Codes\\VS 2022\\DigiCV\\aspnetb8-team2\\src\\ResumeBuilderTeam2\\CVBuilder.Infrastructure\\CVBuilder.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Codes\\VS 2022\\DigiCV\\aspnetb8-team2\\src\\ResumeBuilderTeam2\\CVBuilder.Infrastructure\\CVBuilder.Infrastructure.csproj",
+        "projectName": "CVBuilder.Infrastructure",
+        "projectPath": "D:\\Codes\\VS 2022\\DigiCV\\aspnetb8-team2\\src\\ResumeBuilderTeam2\\CVBuilder.Infrastructure\\CVBuilder.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\BS1027\\.nuget\\packages\\",
+        "outputPath": "D:\\Codes\\VS 2022\\DigiCV\\aspnetb8-team2\\src\\ResumeBuilderTeam2\\CVBuilder.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\BS1027\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Codes\\VS 2022\\DigiCV\\aspnetb8-team2\\src\\ResumeBuilderTeam2\\CVBuilder.Application\\CVBuilder.Application.csproj": {
+                "projectPath": "D:\\Codes\\VS 2022\\DigiCV\\aspnetb8-team2\\src\\ResumeBuilderTeam2\\CVBuilder.Application\\CVBuilder.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authorization": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "System.CodeDom": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Codes\\VS 2022\\DigiCV\\aspnetb8-team2\\src\\ResumeBuilderTeam2\\CVBuilder.Persistance\\CVBuilder.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Codes\\VS 2022\\DigiCV\\aspnetb8-team2\\src\\ResumeBuilderTeam2\\CVBuilder.Persistance\\CVBuilder.Persistence.csproj",
+        "projectName": "CVBuilder.Persistence",
+        "projectPath": "D:\\Codes\\VS 2022\\DigiCV\\aspnetb8-team2\\src\\ResumeBuilderTeam2\\CVBuilder.Persistance\\CVBuilder.Persistence.csproj",
+        "packagesPath": "C:\\Users\\BS1027\\.nuget\\packages\\",
+        "outputPath": "D:\\Codes\\VS 2022\\DigiCV\\aspnetb8-team2\\src\\ResumeBuilderTeam2\\CVBuilder.Persistance\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\BS1027\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Codes\\VS 2022\\DigiCV\\aspnetb8-team2\\src\\ResumeBuilderTeam2\\CVBuilder.Application\\CVBuilder.Application.csproj": {
+                "projectPath": "D:\\Codes\\VS 2022\\DigiCV\\aspnetb8-team2\\src\\ResumeBuilderTeam2\\CVBuilder.Application\\CVBuilder.Application.csproj"
+              },
+              "D:\\Codes\\VS 2022\\DigiCV\\aspnetb8-team2\\src\\ResumeBuilderTeam2\\CVBuilder.Domain\\CVBuilder.Domain.csproj": {
+                "projectPath": "D:\\Codes\\VS 2022\\DigiCV\\aspnetb8-team2\\src\\ResumeBuilderTeam2\\CVBuilder.Domain\\CVBuilder.Domain.csproj"
+              },
+              "D:\\Codes\\VS 2022\\DigiCV\\aspnetb8-team2\\src\\ResumeBuilderTeam2\\CVBuilder.Infrastructure\\CVBuilder.Infrastructure.csproj": {
+                "projectPath": "D:\\Codes\\VS 2022\\DigiCV\\aspnetb8-team2\\src\\ResumeBuilderTeam2\\CVBuilder.Infrastructure\\CVBuilder.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[1.3.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

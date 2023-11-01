@@ -1,0 +1,125 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ResumeBuilder
+build_property.RootNamespace = ResumeBuilder
+build_property.ProjectDir = D:\Codes\VS 2022\DigiCV\aspnetb8-team2\ResumeBuilderTeam2\ResumeBuilder\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Codes\VS 2022\DigiCV\aspnetb8-team2\ResumeBuilderTeam2\ResumeBuilder
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Codes/VS 2022/DigiCV/aspnetb8-team2/ResumeBuilderTeam2/ResumeBuilder/Areas/Admin/Pages/ChooseTemplate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcQ2hvb3NlVGVtcGxhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Codes/VS 2022/DigiCV/aspnetb8-team2/ResumeBuilderTeam2/ResumeBuilder/Areas/Admin/Pages/dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcZGFzaGJvYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Codes/VS 2022/DigiCV/aspnetb8-team2/ResumeBuilderTeam2/ResumeBuilder/Areas/Admin/Pages/Shared/_DefaultHeaderPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcU2hhcmVkXF9EZWZhdWx0SGVhZGVyUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Codes/VS 2022/DigiCV/aspnetb8-team2/ResumeBuilderTeam2/ResumeBuilder/Areas/Admin/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Codes/VS 2022/DigiCV/aspnetb8-team2/ResumeBuilderTeam2/ResumeBuilder/Areas/Admin/Pages/test.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcdGVzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Codes/VS 2022/DigiCV/aspnetb8-team2/ResumeBuilderTeam2/ResumeBuilder/Areas/Admin/Pages/UserManagement.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcVXNlck1hbmFnZW1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Codes/VS 2022/DigiCV/aspnetb8-team2/ResumeBuilderTeam2/ResumeBuilder/Areas/Admin/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Codes/VS 2022/DigiCV/aspnetb8-team2/ResumeBuilderTeam2/ResumeBuilder/Areas/Admin/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Codes/VS 2022/DigiCV/aspnetb8-team2/ResumeBuilderTeam2/ResumeBuilder/Areas/Identity/Pages/LogIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcTG9nSW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Codes/VS 2022/DigiCV/aspnetb8-team2/ResumeBuilderTeam2/ResumeBuilder/Areas/Identity/Pages/Registration.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcUmVnaXN0cmF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Codes/VS 2022/DigiCV/aspnetb8-team2/ResumeBuilderTeam2/ResumeBuilder/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Codes/VS 2022/DigiCV/aspnetb8-team2/ResumeBuilderTeam2/ResumeBuilder/Areas/Users/Pages/CVTemplate/CVTemplate-one.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlcnNcUGFnZXNcQ1ZUZW1wbGF0ZVxDVlRlbXBsYXRlLW9uZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Codes/VS 2022/DigiCV/aspnetb8-team2/ResumeBuilderTeam2/ResumeBuilder/Areas/Users/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlcnNcUGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Codes/VS 2022/DigiCV/aspnetb8-team2/ResumeBuilderTeam2/ResumeBuilder/Areas/Users/Pages/UserSelect.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlcnNcUGFnZXNcVXNlclNlbGVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Codes/VS 2022/DigiCV/aspnetb8-team2/ResumeBuilderTeam2/ResumeBuilder/Areas/Users/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlcnNcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Codes/VS 2022/DigiCV/aspnetb8-team2/ResumeBuilderTeam2/ResumeBuilder/Areas/Users/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlcnNcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Codes/VS 2022/DigiCV/aspnetb8-team2/ResumeBuilderTeam2/ResumeBuilder/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Codes/VS 2022/DigiCV/aspnetb8-team2/ResumeBuilderTeam2/ResumeBuilder/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Codes/VS 2022/DigiCV/aspnetb8-team2/ResumeBuilderTeam2/ResumeBuilder/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Codes/VS 2022/DigiCV/aspnetb8-team2/ResumeBuilderTeam2/ResumeBuilder/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Codes/VS 2022/DigiCV/aspnetb8-team2/ResumeBuilderTeam2/ResumeBuilder/Pages/_Banner.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0Jhbm5lci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Codes/VS 2022/DigiCV/aspnetb8-team2/ResumeBuilderTeam2/ResumeBuilder/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Codes/VS 2022/DigiCV/aspnetb8-team2/ResumeBuilderTeam2/ResumeBuilder/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Codes/VS 2022/DigiCV/aspnetb8-team2/ResumeBuilderTeam2/ResumeBuilder/Areas/Admin/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-2tyfs80nlb
+
+[D:/Codes/VS 2022/DigiCV/aspnetb8-team2/ResumeBuilderTeam2/ResumeBuilder/Areas/Admin/Pages/_LayoutAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcX0xheW91dEFkbWluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-1iwf28ltv0
+
+[D:/Codes/VS 2022/DigiCV/aspnetb8-team2/ResumeBuilderTeam2/ResumeBuilder/Areas/Users/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlcnNcUGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-tjay9041m9
+
+[D:/Codes/VS 2022/DigiCV/aspnetb8-team2/ResumeBuilderTeam2/ResumeBuilder/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-pjsplv5b26

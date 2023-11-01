@@ -1,0 +1,12 @@
+D:\Codes\VS 2022\DigiCV\aspnetb8-team2\src\ResumeBuilderTeam2\CVBuilder.Domain\bin\Debug\net7.0\CVBuilder.Domain.deps.json
+D:\Codes\VS 2022\DigiCV\aspnetb8-team2\src\ResumeBuilderTeam2\CVBuilder.Domain\bin\Debug\net7.0\CVBuilder.Domain.dll
+D:\Codes\VS 2022\DigiCV\aspnetb8-team2\src\ResumeBuilderTeam2\CVBuilder.Domain\bin\Debug\net7.0\CVBuilder.Domain.pdb
+D:\Codes\VS 2022\DigiCV\aspnetb8-team2\src\ResumeBuilderTeam2\CVBuilder.Domain\obj\Debug\net7.0\CVBuilder.Domain.csproj.AssemblyReference.cache
+D:\Codes\VS 2022\DigiCV\aspnetb8-team2\src\ResumeBuilderTeam2\CVBuilder.Domain\obj\Debug\net7.0\CVBuilder.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Codes\VS 2022\DigiCV\aspnetb8-team2\src\ResumeBuilderTeam2\CVBuilder.Domain\obj\Debug\net7.0\CVBuilder.Domain.AssemblyInfoInputs.cache
+D:\Codes\VS 2022\DigiCV\aspnetb8-team2\src\ResumeBuilderTeam2\CVBuilder.Domain\obj\Debug\net7.0\CVBuilder.Domain.AssemblyInfo.cs
+D:\Codes\VS 2022\DigiCV\aspnetb8-team2\src\ResumeBuilderTeam2\CVBuilder.Domain\obj\Debug\net7.0\CVBuilder.Domain.csproj.CoreCompileInputs.cache
+D:\Codes\VS 2022\DigiCV\aspnetb8-team2\src\ResumeBuilderTeam2\CVBuilder.Domain\obj\Debug\net7.0\CVBuilder.Domain.dll
+D:\Codes\VS 2022\DigiCV\aspnetb8-team2\src\ResumeBuilderTeam2\CVBuilder.Domain\obj\Debug\net7.0\refint\CVBuilder.Domain.dll
+D:\Codes\VS 2022\DigiCV\aspnetb8-team2\src\ResumeBuilderTeam2\CVBuilder.Domain\obj\Debug\net7.0\CVBuilder.Domain.pdb
+D:\Codes\VS 2022\DigiCV\aspnetb8-team2\src\ResumeBuilderTeam2\CVBuilder.Domain\obj\Debug\net7.0\ref\CVBuilder.Domain.dll

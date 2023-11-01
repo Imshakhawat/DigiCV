@@ -1,0 +1,15 @@
+D:\Codes\VS 2022\DigiCV\aspnetb8-team2\src\ResumeBuilderTeam2\ResumeComparisoner\bin\Debug\net6.0\ResumeComparisoner.exe
+D:\Codes\VS 2022\DigiCV\aspnetb8-team2\src\ResumeBuilderTeam2\ResumeComparisoner\bin\Debug\net6.0\ResumeComparisoner.deps.json
+D:\Codes\VS 2022\DigiCV\aspnetb8-team2\src\ResumeBuilderTeam2\ResumeComparisoner\bin\Debug\net6.0\ResumeComparisoner.runtimeconfig.json
+D:\Codes\VS 2022\DigiCV\aspnetb8-team2\src\ResumeBuilderTeam2\ResumeComparisoner\bin\Debug\net6.0\ResumeComparisoner.dll
+D:\Codes\VS 2022\DigiCV\aspnetb8-team2\src\ResumeBuilderTeam2\ResumeComparisoner\bin\Debug\net6.0\ResumeComparisoner.pdb
+D:\Codes\VS 2022\DigiCV\aspnetb8-team2\src\ResumeBuilderTeam2\ResumeComparisoner\obj\Debug\net6.0\ResumeComparisoner.csproj.AssemblyReference.cache
+D:\Codes\VS 2022\DigiCV\aspnetb8-team2\src\ResumeBuilderTeam2\ResumeComparisoner\obj\Debug\net6.0\ResumeComparisoner.GeneratedMSBuildEditorConfig.editorconfig
+D:\Codes\VS 2022\DigiCV\aspnetb8-team2\src\ResumeBuilderTeam2\ResumeComparisoner\obj\Debug\net6.0\ResumeComparisoner.AssemblyInfoInputs.cache
+D:\Codes\VS 2022\DigiCV\aspnetb8-team2\src\ResumeBuilderTeam2\ResumeComparisoner\obj\Debug\net6.0\ResumeComparisoner.AssemblyInfo.cs
+D:\Codes\VS 2022\DigiCV\aspnetb8-team2\src\ResumeBuilderTeam2\ResumeComparisoner\obj\Debug\net6.0\ResumeComparisoner.csproj.CoreCompileInputs.cache
+D:\Codes\VS 2022\DigiCV\aspnetb8-team2\src\ResumeBuilderTeam2\ResumeComparisoner\obj\Debug\net6.0\ResumeComparisoner.dll
+D:\Codes\VS 2022\DigiCV\aspnetb8-team2\src\ResumeBuilderTeam2\ResumeComparisoner\obj\Debug\net6.0\refint\ResumeComparisoner.dll
+D:\Codes\VS 2022\DigiCV\aspnetb8-team2\src\ResumeBuilderTeam2\ResumeComparisoner\obj\Debug\net6.0\ResumeComparisoner.pdb
+D:\Codes\VS 2022\DigiCV\aspnetb8-team2\src\ResumeBuilderTeam2\ResumeComparisoner\obj\Debug\net6.0\ResumeComparisoner.genruntimeconfig.cache
+D:\Codes\VS 2022\DigiCV\aspnetb8-team2\src\ResumeBuilderTeam2\ResumeComparisoner\obj\Debug\net6.0\ref\ResumeComparisoner.dll

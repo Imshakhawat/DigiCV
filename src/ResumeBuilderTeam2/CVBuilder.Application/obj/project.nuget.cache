@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "pc7UXXUknP13v4SSx2MfLkGaPt8G6KvGUHJdmGuOmtWkr9LSm7F11FassL6yYUA7tBynk3BZSDpkGW+k8WAqQA==",
+  "success": true,
+  "projectFilePath": "D:\\Codes\\VS 2022\\DigiCV\\aspnetb8-team2\\src\\ResumeBuilderTeam2\\CVBuilder.Application\\CVBuilder.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\BS1027\\.nuget\\packages\\autofac\\7.1.0\\autofac.7.1.0.nupkg.sha512",
+    "C:\\Users\\BS1027\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

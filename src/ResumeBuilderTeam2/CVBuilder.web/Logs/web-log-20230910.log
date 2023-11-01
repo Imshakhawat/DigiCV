@@ -1,0 +1,22 @@
+2023-09-10 22:37:55.895 +06:00 [INF] Application Starting...
+2023-09-10 22:38:50.201 +06:00 [INF] User logged in.
+2023-09-10 22:56:07.676 +06:00 [FTL] Failed to start applications.
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in D:\Codes\VS 2022\DigiCV\aspnetb8-team2\src\ResumeBuilderTeam2\CVBuilder.Web\Program.cs:line 52
+2023-09-10 22:56:47.106 +06:00 [FTL] Failed to start applications.
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in D:\Codes\VS 2022\DigiCV\aspnetb8-team2\src\ResumeBuilderTeam2\CVBuilder.Web\Program.cs:line 52
+2023-09-10 23:37:27.278 +06:00 [INF] Application Starting...
+2023-09-10 23:40:20.011 +06:00 [INF] Application Starting...

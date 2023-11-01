@@ -1,0 +1,51 @@
+﻿@model ResumeTemplateListModel
+@{
+    ViewData["Title"] = "ChooseTemplate";
+}
+
+<div class="container mt-5 pt-5">
+    <!-- ======= Portfolio Section ======= -->
+    <section id="teamplate" class="portfolio">
+        <div class="container" data-aos="fade-up">
+            <header class="section-header">
+                <p>Check our CV Teamplate</p>
+            </header>
+            <div class="row" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-lg-12 d-flex justify-content-center">
+                    <ul id="portfolio-flters">
+                        <li data-filter="*" class="filter-active">All</li>
+                        <li data-filter=".filter-app">2 Column</li>
+                        <li data-filter=".filter-card">Single Page</li>
+                        <li data-filter=".filter-web">Plain</li>
+                    </ul>
+                </div>
+            </div>
+            
+            
+                <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
+                @foreach (var template in Model.GetResumeTemplates())
+                {
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                        <div class="portfolio-wrap">
+                            <img src="@template.TemplateThumbNailUrl" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Single Page</h4>
+                                <p>Single Page</p>
+                                <div class="portfolio-links">
+                                    <a href="@template.TemplateThumbNailUrl" data-gallery="portfolioGallery" class="portfokio-lightbox" title="View Template"><i class="bi bi-plus"></i></a>
+                                    <a asp-action="index" asp-controller="Resume" asp-route-tempId="@template.Id" asp-route-template="@template.TemplateName" title="Select Thmplate"><i class="bi bi-link"></i></a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        
+                    </div>
+                }
+                </div>
+            
+           
+            </div>
+        </div>
+    </section><!-- End Portfolio Section -->
+</div>
+

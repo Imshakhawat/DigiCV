@@ -1,0 +1,307 @@
+﻿
+@section Styles{
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.6.0/cropper.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-toast-plugin/1.3.2/jquery.toast.css" integrity="sha512-8D+M+7Y6jVsEa7RD6Kv/Z7EImSpNpQllgaEIQAtqHcI0H6F4iZknRj0Nx1DCdB+TwBaS+702BGWYC0Ze2hpExQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="~/css/cvbuilder-one.css" rel="stylesheet" />
+    <style>
+        .mkp_container{               
+        margin: auto;
+        margin-top: 146px;
+        margin-bottom: 146px;
+        padding-left: 0;
+        padding-right: 0;
+        width:86vw;
+        background:#fff !important
+
+        }
+
+        .social-media-add-remove{
+            display:block;
+        }
+  
+    </style>
+}
+<div class="container">
+    <p>@ViewBag.userId</p>
+ </div>
+    <div class="mkp_container" id="main-container">
+        <div class="col-sm-12 d-flex justify-content-end">
+         <button class="m-2" id="cvEditable">Edit CV</button>
+        </div>
+       
+        <header class="mkp__header">
+            <div class="mkp__header__information">
+
+                <address id="addressuser">
+                     <h2 class="mkp__font__bold editable yourCvName">@ViewBag.Introduction?.ResumeData.ResumeName</h2>
+                     <h3 class="mkp__font__bold editable cvName">@ViewBag.Introduction.IntroName</h3>
+                    <p>
+                        <strong class="mkp__font__bold  editable">Email:</strong>
+                        <a class="mkp__href email editable" href="mailto:@ViewBag.Introduction.IntroEmail">@ViewBag.Introduction.IntroEmail</a>
+                    </p>
+                    <p> <strong class="mkp__font__bold editable">Contact: </strong>
+                       <a class="mkp__href editable mobile" href="tel:+@ViewBag.Introduction.IntroContact">@ViewBag.Introduction.IntroContact</a>
+                    </p>
+               @*      <p> <strong class="mkp__font__bold editable socialName">Skype: </strong> <span
+                            class="editable sociallink">Jalal test.txt</span></p> *@
+                     @foreach(var social in ViewBag.Introduction.SocialMediaList){
+                    <p class="social-parent">
+                        
+                        <strong class="mkp__font__bold editable socialName">@social.SocialMediaName </strong>
+
+                        <a class="mkp__href editable sociallink" href="@social.LinkOrText">@social.LinkOrText</a>
+                           
+                            <label class="social-media-add-remove">
+                                <span class="social-media-add">+</span>
+                                <span class="social-media-remove">-</span>
+                            </label>        
+                            
+                    </p>
+                    }
+                    <h5 class="editable address">
+                        Residential Address: House 11, Road 11, Mirpur, Dhaka, Bangladesh
+                    </h5>
+                </address>
+            </div>
+            <div class="mkp__header__image">
+            <input id="image-upload" class="btn btn-success mb-2" type="button" value="Upload Image" />
+            <img id="image-uploadd" src="~/images/@ViewBag.Introduction.ImageURL" alt="Not found Image" />
+            <!-- The Modal -->
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        @* <input id="image-change" type="file" accept="image/jpeg, image/png, image/jpg"> *@
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6" align="center">
+                                    <label onclick="start_cropping()">Browse image</label>
+                                    <div id="display_image_div">
+                                        <img name="display_image_data" id="display_image_data" src="" alt="Upload Picture"> 
+                                    </div>
+                                    <input type="hidden" name="cropped_image_data" id="cropped_image_data">
+                                    <br>
+                                    <input type="file" name="browse_image" id="browse_image" class="form-control">
+                                </div>
+                                <div class="col-lg-6" align="center">
+                                    <label>Preview</label>
+                                    <div id="cropped_image_result">
+                                        <img  style="width: 350px;" src=""  alt="Corp button clik"/>
+                                    </div>
+                                    <br>
+                                    <button type="button" class="btn btn-success" id="crop_button">Crop</button>
+                                    <button type="button" class="btn btn-danger" id="download_button">Download</button>
+                                    <button type="button" class="btn btn-warning" id="upload_button2">Upload</button>
+                                </div>
+                            </div>
+                            <!--  end row -->
+                        </div>
+                  </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="mkp__main">
+            <section class="mkp__professional">
+                <h4 class="mkp__font__bold mkp__heading_h4 editable professional-heading">Professional Summary</h4>
+                <p class="editable professionaltext">
+                    @ViewBag.ProfessionalSummary.ProfessionalSummary
+                </p>
+            </section>
+
+            <section class="mkp__tools mkp__my">
+                <h4 class="mkp__font__bold mkp_mb editable skills">
+                    Language, Framework, Tools and Other Skills
+                </h4>
+
+                <div class="mkp__tool">
+                    <div class="mkp__tool__left">
+                        <ul class="editable skill-list">
+                                 @foreach( var skill in @ViewBag.Skills){
+                                    <li>@skill?.Description</li>
+                                 }
+                            
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="mkp__workexperence mkp__my" id="workexperence">
+                <h4 class="mkp__font__bold mkp__heading_h4 editable">Working Experience</h4>
+                   <p class="social-media-add-remove workexperice">
+                                @* <span class="social-media-add">+</span> *@
+                                <span class="social-media-remove">-</span>
+                    </p>
+
+                            @foreach(var exp in @ViewBag?.WorkExperiences)
+            {
+               
+                <div class="mkp__repeact__content">
+                 <p class="mkp__font__bold editable position">@exp?.JobTitle</p>
+                               <p class="social-media-add-remove">
+                                <span class="social-media-add">+</span>
+                                <span class="social-media-remove">-</span>
+                            </p>
+                    <div class="mkp__repeact__grid__container">
+                        <p class="editable companyName">@exp?.Company</p>
+                        <p class="yorking-year editable">@exp?.StartDate</p>
+                    </div>
+
+                    <ul class="editable workingTools">
+                       @foreach (var item in exp?.DescriptionItems)
+                        {
+                          <li>
+                                @item.Description
+                        </li>
+                        }
+                        
+                    </ul>
+                </div>
+                }
+
+               
+            </section>
+
+            <section class="mkp__industrial__personal__project">
+                <h4 class="mkp__font__bold mkp__heading_h4 editable project">
+                    Industrial / Personal Application Projects
+                </h4>
+
+                <div class="mkp__industiral__container">
+                    <p class="editable projectPersonal">Company Name / Personal</p>
+                    <p class="editable projecDscription">Application Project description</p>
+
+                </div>
+                @foreach(var item in @ViewBag?.Project?.ProjectItems){
+                <div class="mkp__industiral__container">
+                    <p class="editable projectCompany">@item.Title</p>
+                    <p class="editable projectCompanyDescription">
+                       @item.Description
+                    </p>
+                         <p class="social-media-add-remove">
+                            <span class="social-media-add">+</span>
+                            <span class="social-media-remove">-</span>
+                         </p>
+                </div>
+
+                }
+        
+            </section>
+
+            <section class="mkp__professional__traning">
+                <h4 class="mkp__font__bold mkp__heading_h4 editable">Professional Training</h4>
+                <ul class="editable professionTraining">
+                    @foreach(var item in @ViewBag.ProfessionalTraining.TrainingItemList){
+                        <li>
+                           @item.Description
+                        </li>
+                    }
+                   
+                </ul>
+            </section>
+
+            <section class="mkp__eduction">
+                <h4 class="mkp__font__bold mkp__heading_h4 editable">Education</h4>
+            @foreach (var item in @ViewBag.Education)
+            {
+                <div class="mkp__education__container">
+                    <p class="editable subject">
+                        @item.Institution
+                    </p>
+                    <p class="text-right passing-year editable">@item.GraduationYear</p>
+                    <p class="social-media-add-remove">
+                        <span class="social-media-add">+</span>
+                        <span class="social-media-remove">-</span>
+                    </p>
+                </div>
+            }
+
+            </section>
+
+            <section class="mkp__referrance">
+                <h4 class="mkp__font__bold mkp__heading_h4 editable">References</h4>
+                <p class="social-media-add-remove workexperice">
+                                <span class="social-media-remove">-</span>
+                 </p>
+                <div class="mkp__references__container">
+
+                    <address>
+                    @{
+                        int i = 0;
+                        foreach (var item in ViewBag.References)
+                        {
+                            <div class="ref-address">
+                                <strong class="mkp__font__bold editable reffenceDesig">@item.Designation</strong>
+                                <span class="editable reffenceName">@item.Name </span>
+                            </div>
+                            i++;
+                            if (i == 6) break;
+                        }
+                    }
+
+                       
+                    </address>
+
+                    <address class="second-ref">
+                    @{
+                        int j = 0;
+                        foreach (var item in ViewBag.References)
+                        {
+                            j++;
+                            if (j < 7) continue;
+                            <div class="ref-address">
+                                <strong class="mkp__font__bold editable reffenceDesig">@item.Designation</strong>
+                                <span class="editable reffenceName">@item.Name </span>
+                            </div>
+
+                        }
+                    }
+                
+                    </address>
+                </div>
+            </section>
+            <!-- Edit delete move button -->
+
+        </main>
+        <footer class="mkp__footer">
+
+        <div class="mkp__card edit">
+            <button id="edit-section">Edit</button>
+            <!-- <button id = "addSection">Add</button>
+        <button id = "removeSection">Remove</button> -->
+        </div>
+
+        <div class="m-2 p-2">
+            <button id="saveDataUpdate" style="display:inline-block;" class="saveData">Save CV </button>
+            <button id="pdfdownload"> PDF</button>
+            @* <button id="wordDownload"> Word File </button> *@
+
+        </div>
+
+    </footer>
+   </div>
+        
+
+    @section scripts{
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.es.js"
+        integrity="sha512-VTufZOUx+Gc0N4JkluA0ZkVs2x4wfDI3p60gRWpHT761kMQ+hiNlYI+8MGXbLO48ymPKAeRa1wsEm3BIaxSEvw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.js"
+        integrity="sha512-Bw9Zj8x4giJb3OmlMiMaGbNrFr0ERD2f9jL3en5FmcTXLhkI+fKyXVeyGyxKMIl1RfgcCBDprJJt4JvlglEb3A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/polyfills.es.js"
+        integrity="sha512-ccZBwXP6zByd5l4Iz6y7Vu2iqGo6t2hwGEuLauWKmTb7AtwhwmqnCr7yvbZBIZxUtH3a1BDaNJz8/MrnpZl8wA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/polyfills.umd.js"
+        integrity="sha512-gmqJDkLpXOuVrRDAQa8pWc+WReEL4hO0f07hcCjx9bayyt5YENnZP2MgeSgo5CaUb3feZu/JCEKf69EsFZcQhA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.6.0/cropper.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-toast-plugin/1.3.2/jquery.toast.js" integrity="sha512-Y+cHVeYzi7pamIOGBwYHrynWWTKImI9G78i53+azDb1uPmU1Dz9/r2BLxGXWgOC7FhwAGsy3/9YpNYaoBy7Kzg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="~/js/cv-template.js"></script>
+
+    <script src="~/js/cv-builder.js"></script>
+    }
